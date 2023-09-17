@@ -1,7 +1,6 @@
 Implementing a classical subtraction function on an IBM quantum computer involves creating a quantum circuit that simulates subtraction. Quantum computers are primarily designed for quantum computations, but you can simulate classical operations on them. Below, I'll provide a Python script that implements a classical subtraction function, documents it, and includes unit tests.
 
 python
-Copy code
 from qiskit import QuantumCircuit, transpile, assemble, Aer, execute
 
 def classical_subtraction(a, b):
@@ -85,7 +84,6 @@ ChatGPT
 Creating a documentation file for your GitHub repository is essential for providing an overview of your project and its components. Below, I'll provide you with a template for a README.md file that you can include in your GitHub repository to document the classical and quantum subtraction scripts:
 
 markdown
-Copy code
 # Quantum Subtraction on IBM Quantum Computer
 
 This repository contains Python scripts to perform subtraction using classical and quantum methods. It demonstrates how to implement a simple subtraction operation on an IBM Quantum computer using the Qiskit library.
@@ -124,7 +122,6 @@ Tests
 To ensure the correctness of the implemented functions, unit tests have been provided in the scripts. You can run the tests using the following command:
 
 bash
-Copy code
 python -m unittest <script_name_without_extension>
 Replace <script_name_without_extension> with the name of the script you want to test (e.g., classical_subtraction or quantum_subtraction).
 
